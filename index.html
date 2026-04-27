@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>I'm Sorry Anitha</title>
+  <title>I'm Sorry, Anitha</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --rose:     #f2a7b3;
-      --blush:    #fde8ed;
-      --petal:    #fff4f7;
-      --cream:    #fffaf8;
-      --muted:    #b07080;
-      --text:     #5a3040;
-      --light:    #c9909f;
+      --rose:     #f5a623;
+      --blush:    #fff3e0;
+      --petal:    #fff8f0;
+      --cream:    #fffcf5;
+      --muted:    #b07830;
+      --text:     #4a3010;
+      --light:    #c49a40;
     }
 
     html { scroll-behavior: smooth; }
@@ -34,9 +34,9 @@
       position: fixed;
       inset: 0;
       background:
-        radial-gradient(ellipse 70% 60% at 20% 10%,  #fce4ec88 0%, transparent 70%),
-        radial-gradient(ellipse 50% 50% at 85% 80%,  #f8bbd088 0%, transparent 70%),
-        radial-gradient(ellipse 40% 40% at 60% 40%,  #fce4ec44 0%, transparent 70%);
+        radial-gradient(ellipse 70% 60% at 20% 10%,  #ffe0b288 0%, transparent 70%),
+        radial-gradient(ellipse 50% 50% at 85% 80%,  #fff3cd88 0%, transparent 70%),
+        radial-gradient(ellipse 40% 40% at 60% 40%,  #ffe08244 0%, transparent 70%);
       pointer-events: none;
       z-index: 0;
     }
@@ -53,16 +53,16 @@
       pointer-events: none;
       z-index: 1;
     }
-    .petal:nth-child(1)  { left:  5%; background:#f9c4d0; animation-duration:9s;  animation-delay:0s;   width:10px; height:14px; }
-    .petal:nth-child(2)  { left: 15%; background:#f48fb1; animation-duration:12s; animation-delay:2s;   width:8px;  height:12px; }
-    .petal:nth-child(3)  { left: 25%; background:#fce4ec; animation-duration:8s;  animation-delay:4s;   }
-    .petal:nth-child(4)  { left: 40%; background:#f9c4d0; animation-duration:11s; animation-delay:1s;   width:14px; height:18px; }
-    .petal:nth-child(5)  { left: 55%; background:#f48fb1; animation-duration:10s; animation-delay:3s;   width:9px;  height:13px; }
-    .petal:nth-child(6)  { left: 65%; background:#fce4ec; animation-duration:13s; animation-delay:5s;   width:11px; height:15px; }
-    .petal:nth-child(7)  { left: 75%; background:#f9c4d0; animation-duration:7s;  animation-delay:0.5s; width:8px;  height:10px; }
-    .petal:nth-child(8)  { left: 85%; background:#f48fb1; animation-duration:14s; animation-delay:6s;   }
-    .petal:nth-child(9)  { left: 92%; background:#fce4ec; animation-duration:9s;  animation-delay:2.5s; width:13px; height:17px; }
-    .petal:nth-child(10) { left: 48%; background:#f9c4d0; animation-duration:11s; animation-delay:7s;   width:7px;  height:10px; }
+    .petal:nth-child(1)  { left:  5%; background:#ffd180; animation-duration:9s;  animation-delay:0s;   width:10px; height:14px; }
+    .petal:nth-child(2)  { left: 15%; background:#ffab40; animation-duration:12s; animation-delay:2s;   width:8px;  height:12px; }
+    .petal:nth-child(3)  { left: 25%; background:#ffe0b2; animation-duration:8s;  animation-delay:4s;   }
+    .petal:nth-child(4)  { left: 40%; background:#ffd180; animation-duration:11s; animation-delay:1s;   width:14px; height:18px; }
+    .petal:nth-child(5)  { left: 55%; background:#ffab40; animation-duration:10s; animation-delay:3s;   width:9px;  height:13px; }
+    .petal:nth-child(6)  { left: 65%; background:#ffe0b2; animation-duration:13s; animation-delay:5s;   width:11px; height:15px; }
+    .petal:nth-child(7)  { left: 75%; background:#ffd180; animation-duration:7s;  animation-delay:0.5s; width:8px;  height:10px; }
+    .petal:nth-child(8)  { left: 85%; background:#ffab40; animation-duration:14s; animation-delay:6s;   }
+    .petal:nth-child(9)  { left: 92%; background:#ffe0b2; animation-duration:9s;  animation-delay:2.5s; width:13px; height:17px; }
+    .petal:nth-child(10) { left: 48%; background:#ffd180; animation-duration:11s; animation-delay:7s;   width:7px;  height:10px; }
 
     @keyframes fall {
       0%   { transform: translateY(-40px) rotate(0deg)   translateX(0);   opacity: 0; }
@@ -128,17 +128,17 @@
       background: rgba(255, 255, 255, 0.72);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(242, 167, 179, 0.3);
+      border: 1px solid rgba(245, 166, 35, 0.3);
       border-radius: 20px;
       padding: 36px 40px;
       margin-bottom: 24px;
-      box-shadow: 0 4px 32px rgba(180, 100, 120, 0.08);
+      box-shadow: 0 4px 32px rgba(180, 120, 30, 0.08);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .card:hover {
       transform: translateY(-3px);
-      box-shadow: 0 10px 40px rgba(180, 100, 120, 0.14);
+      box-shadow: 0 10px 40px rgba(180, 120, 30, 0.14);
     }
 
     .card-label {
@@ -163,7 +163,7 @@
     .card p {
       font-size: 0.97rem;
       line-height: 1.85;
-      color: #7a4a5a;
+      color: #7a5a20;
       font-weight: 300;
     }
 
@@ -188,7 +188,7 @@
 
     .forgive-btn {
       position: relative;
-      background: linear-gradient(135deg, #f2a7b3 0%, #e879a0 100%);
+      background: linear-gradient(135deg, #f5a623 0%, #e67e00 100%);
       color: #fff;
       font-family: 'Poppins', sans-serif;
       font-size: 0.95rem;
@@ -198,7 +198,7 @@
       border-radius: 50px;
       cursor: pointer;
       letter-spacing: 0.04em;
-      box-shadow: 0 6px 28px rgba(232, 121, 160, 0.38);
+      box-shadow: 0 6px 28px rgba(230, 126, 0, 0.38);
       transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.3s ease;
       overflow: hidden;
     }
@@ -214,7 +214,7 @@
 
     .forgive-btn:hover {
       transform: translateY(-3px) scale(1.03);
-      box-shadow: 0 12px 36px rgba(232, 121, 160, 0.48);
+      box-shadow: 0 12px 36px rgba(230, 126, 0, 0.48);
     }
     .forgive-btn:hover::before { opacity: 1; }
     .forgive-btn:active { transform: scale(0.97); }
@@ -236,11 +236,11 @@
 
     .promise-inner {
       display: inline-block;
-      background: linear-gradient(135deg, #fff0f5, #fde8ed);
-      border: 1.5px solid rgba(242, 167, 179, 0.5);
+      background: linear-gradient(135deg, #fff8e1, #fff3cd);
+      border: 1.5px solid rgba(245, 166, 35, 0.5);
       border-radius: 16px;
       padding: 28px 40px;
-      box-shadow: 0 8px 32px rgba(180, 100, 120, 0.12);
+      box-shadow: 0 8px 32px rgba(180, 120, 30, 0.12);
     }
 
     .promise-inner .big-heart {
@@ -303,8 +303,8 @@
 
     <!-- Hero heading -->
     <div class="hero">
-      <span class="heart-icon">🌸</span>
-      <h1>I'm <em>Sorry</em></h1>
+      <span class="heart-icon">🤞</span>
+      <h1>I'm <em>Sorry,</em> Anitha</h1>
       <div class="divider">
         <span></span>
         <i>♡</i>
@@ -334,7 +334,7 @@
 
     <!-- Card 3: What You Mean to Me -->
     <div class="card">
-      <div class="card-label">You are my everything</div>
+      <div class="card-label">You are my sister, my world</div>
       <h2>What You Mean to Me</h2>
       <p>
         <!-- ✏️ EDIT THIS — Write what this person means to you -->
@@ -345,21 +345,21 @@
     <!-- Button -->
     <div class="btn-wrap">
       <button class="forgive-btn" id="forgiveBtn">
-        Click if you can forgive me &nbsp;🌷
+        Click if you can forgive me &nbsp;🤞
       </button>
     </div>
 
     <!-- Hidden promise message -->
     <div class="promise" id="promise">
       <div class="promise-inner">
-        <span class="big-heart">💗</span>
+        <span class="big-heart">🤞</span>
         <p>"I will do better. I promise."</p>
-        <small>— always & forever yours</small>
+        <small>— your sibling, always</small>
       </div>
     </div>
 
     <footer>
-      made with love &nbsp;♡&nbsp; just for you
+      made with love &nbsp;🤞&nbsp; for my sister Anitha
     </footer>
 
   </div>
@@ -370,7 +370,7 @@
 
     btn.addEventListener('click', () => {
       promise.classList.add('visible');
-      btn.textContent = 'Thank you 🌸';
+      btn.textContent = 'Thank you, Anitha 🤞';
       btn.style.background = 'linear-gradient(135deg, #c8e6c9 0%, #81c784 100%)';
       btn.style.boxShadow  = '0 6px 28px rgba(100, 180, 120, 0.38)';
       btn.disabled = true;
